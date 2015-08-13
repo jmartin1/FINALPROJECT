@@ -1,0 +1,122 @@
+<html>
+    <head>
+            <!--<meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+            <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
+            }
+            h6 {
+                text-align:    right;
+            }
+        </style>
+
+        <script>
+        function findPlace(){
+        	alert('hi');
+        	if value=="Columbia University in the City of New York"{
+        		alert();
+        	}
+
+
+
+   		 }
+		</script>
+    </head>
+
+    <body>
+        <!-- This is page one. -->
+        <div data-role="page" data-transition="pop" id="homePage">
+            <div data-role="header">
+                <h1>UNIque.</h1>
+            </div>
+            <div data-role="ui-content">
+                    <h2> Welcome! </h2>
+                    <h2>Which University?</h2><br>
+                    
+                    <form>
+						<div class="ui-field-contain">
+						    <select name="select-native-1" id="select-native-1">
+						        <option value= "none"> -- </option>
+						        <option value="Columbia University in the City of New York">Columbia University in the City of New York</option>
+						        <option value="Cornell University">Cornell University</option>
+						        <option value="New York University">New York University</option>
+						        <option value="Adelphi University">Adelphi University</option>
+						    </select>
+						</div>
+					</form>
+                    <br><br>
+     
+
+				<a href = "#pagetwo"><input type="button" value="Submit" data-theme="p" ></input></a>
+                       
+            </div>
+            <div data-role="footer">
+                <h6 style = "text-align: right;"> MODSQUAD, INC.</h6>
+            </div>
+            
+        </div>
+        
+        <!-- This is page two. -->
+        <div data-role="page" data-transition="pop" id="pagetwo">
+            <div data-role="header">
+                <h1>UNIque.</h1>
+            </div>
+            <div data-role="ui-content">
+                <h2> Are you a... </h2>
+                <a href = "#pagethree" data-transition= "flow"><button>local</button></a>
+                <h2 style = "text-align: center;"> or </h3>
+                <a href = "#pagefour"  data-transition= "flow"><button>visitor</button></a>
+				<h2> ? </h2>
+            </div>
+            <div data-role="footer">
+                <h6 style = "text-align: right;"> MODSQUAD, INC.</h6>
+            </div>
+        </div>
+        
+		<!-- This is page three. -->
+
+		<!-- This is page four. -->
+		<div data-role="page" data-transition="pop" id="pagefour">
+			<div data-role="header">
+                <h1>UNIque.</h1>
+            </div>
+			<div data-role="ui-content">
+				<h2> What are you interested in? </h2>
+				<a href = "#pagefive" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right" onClick="findPlace();">Restaurants & Food</a>
+				<a href = "#pagesix" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Entertainment</a>
+				<a href = "#pageseven" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Museums & Historial Sites</a>
+				<a href = "#pageeight" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Outdoors & Nature</a>
+				<a href = "#pagenine" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Shopping</a>
+				<a href = "#pageten" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Athletic Games</a>
+				<a href = "#pageeleven" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Tours</a>
+				<a href = "#pagetwelve" data-transition = "flow" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Personal Notes/Reviews of Visited Colleges</a>
+				<div data-role="footer">
+                	<h6 style = "text-align: right;"> MODSQUAD, INC.</h6>
+            	</div>
+			</div>
+		</div>
+
+		<!-- This is page five. -->
+		<div data-role="page" data-transition="pop" id="pagefive">
+			<div data-role="header">
+            	<h1> UNIque.</h1>
+        	</div>
+        	
+
+    	</div>
+    </body>
+
+
+
+</html>
